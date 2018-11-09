@@ -1,0 +1,30 @@
+{
+  "name": "eslint-config-gsc",
+  "version": "0.0.1",
+  "description": "A shareable ESLint configuration from GoSpotCheck",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gospotcheck/eslint-config-gsc"
+  },
+  "bugs": {
+    "url": "https://github.com/gospotcheck/eslint-config-gsc/issues"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint-config-react-app": "^2.1.0",
+    "eslint-loader": "1.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint": "^5.8.0"
+  },
+  "peerDependencies": {
+    "eslint": ">= 5.8.0"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  }
+}
