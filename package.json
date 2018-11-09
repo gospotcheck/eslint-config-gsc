@@ -29,11 +29,11 @@
     "eslint-plugin-jest": "^21.17.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^3.0.0",
-    "eslint-plugin-react": "^7.10.0"
-  },
-  "peerDependencies": {
-    "eslint": ">= 5.8.0",
-    "stylelint": "^9.5.0"
+    "eslint-plugin-react": "^7.10.0",
+    "stylelint": "^9.8.0",
+    "stylelint-config-prettier": "^4.0.0",
+    "stylelint-config-recommended": "^2.1.0",
+    "stylelint-config-styled-components": "^0.1.1"
   },
   "eslintConfig": {
     "extends": "./index.js"
