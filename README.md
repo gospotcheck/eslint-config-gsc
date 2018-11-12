@@ -41,3 +41,9 @@ module.exports = {
   "extends": "gsc/react"
 };
 ```
+
+### Stylelinter
+
+To use the stylelint configuration:
+- Create a `stylelint.config.js`
+- Add `module.exports = require('eslint-config-gsc/stylelint');`
