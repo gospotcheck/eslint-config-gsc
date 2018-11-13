@@ -1,8 +1,21 @@
 module.exports = {
   extends: 'gsc',
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
+  plugins: ['react'],
+  settings: {
+    react: {
+      version: '16.0'
+    }
+  },
   rules: {
+    'jsx-a11y/label-has-for': 0,
+    'jsx-quotes': [2, 'prefer-double'],
     'react/display-name': 2,
-    'react/jsx-filename-extension': ['error', { extensions: ['.js'] }],
+    'react/jsx-filename-extension': ['error', { extensions: ['.js']}],
     'react/jsx-key': 1,
     'react/jsx-no-duplicate-props': [2, { ignoreCase: true }],
     'react/jsx-no-undef': 2,
