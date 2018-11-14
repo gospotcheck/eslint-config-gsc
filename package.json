@@ -23,6 +23,7 @@
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
+    "eslint-config-prettier": "^3.3.0",
     "eslint-loader": "2.1.1",
     "eslint-plugin-import": "^2.13.0",
     "eslint-plugin-jest": "^22.0.0",
@@ -32,11 +33,13 @@
     "stylelint": "^9.8.0",
     "stylelint-config-prettier": "^4.0.0",
     "stylelint-config-recommended": "^2.1.0",
-    "stylelint-config-styled-components": "^0.1.1"
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.5.0"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0"
+    "eslint": "^5.8.0",
+    "prettier": "^1.15.2"
   },
   "eslintConfig": {
     "extends": "./index.js"

@@ -4,7 +4,7 @@ module.exports = {
     ecmaVersion: 2015,
     sourceType: 'module'
   },
-  plugins: ['jest'],
+  plugins: ['prettier', 'jest'],
   env: {
     browser: true,
     es6: true,
