@@ -13,10 +13,11 @@ module.exports = {
   },
   rules: {
     'brace-style': [2, '1tbs'],
-    'comma-dangle': ['warn', 'never'],
+    'comma-dangle': ['error', 'never'],
     'comma-style': [2, 'last'],
     'default-case': 2,
     'dot-location': [2, 'property'],
+    'no-debugger': 'warn',
     eqeqeq: [2, 'allow-null'],
     'generator-star-spacing': [2, 'after'],
     'guard-for-in': 2,
