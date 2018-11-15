@@ -5,9 +5,19 @@ module.exports = {
     'stylelint-config-styled-components',
     'stylelint-config-prettier'
   ],
+  plugins: [
+    "stylelint-high-performance-animation",
+    "stylelint-order"
+	],
   rules: {
     'block-no-empty': null,
-    'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%'],
-    'indentation': 2
+    'declaration-block-no-redundant-longhand-properties': true,
+    'indentation': 2,
+    'no-eol-whitespace': true,
+    "order/properties-alphabetical-order": true,
+    "plugin/no-low-performance-animation-properties": true,
+    'shorthand-property-no-redundant-values': true,
+    'string-quotes': 'single',
+    'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%', 'px']
   }
 };
