@@ -18,6 +18,6 @@ module.exports = {
     "plugin/no-low-performance-animation-properties": true,
     'shorthand-property-no-redundant-values': true,
     'string-quotes': 'single',
-    'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%', 'px']
+    'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%']
   }
 };
