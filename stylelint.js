@@ -13,7 +13,6 @@ module.exports = {
     'block-no-empty': null,
     'declaration-block-no-redundant-longhand-properties': true,
     'indentation': 2,
-    'no-eol-whitespace': true,
     "order/properties-alphabetical-order": true,
     "plugin/no-low-performance-animation-properties": true,
     'shorthand-property-no-redundant-values': true,
