@@ -17,6 +17,7 @@ module.exports = {
     'react/display-name': 2,
     'react/jsx-filename-extension': ['error', { extensions: ['.js']}],
     'react/jsx-key': 1,
+    'react/jsx-max-props-per-line': [1, { 'maximum': 2 }],
     'react/jsx-no-duplicate-props': [2, { ignoreCase: true }],
     'react/jsx-no-undef': 2,
     'react/jsx-one-expression-per-line': 'off',
