@@ -13,6 +13,9 @@ module.exports = {
     'block-no-empty': null,
     'declaration-block-no-redundant-longhand-properties': true,
     'plugin/no-low-performance-animation-properties': true,
+    'selector-type-no-unknown': [ true, {
+      'ignoreTypes': ['/^-styled-mixin/']
+    }],
     'shorthand-property-no-redundant-values': true,
     'string-quotes': 'single',
     'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%']
