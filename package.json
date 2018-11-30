@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gsc",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A shareable ESLint configuration from GoSpotCheck",
   "author": "Matt Webb <mattwebb0@gmail.com>",
   "main": "index.js",
