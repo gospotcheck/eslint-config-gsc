@@ -18,6 +18,6 @@ module.exports = {
     }],
     'shorthand-property-no-redundant-values': true,
     'string-quotes': 'single',
-    'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%']
+    'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%', 'deg']
   }
 };
