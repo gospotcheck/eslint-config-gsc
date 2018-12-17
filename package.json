@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gsc",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A shareable ESLint configuration from GoSpotCheck",
   "author": "Matt Webb <mattwebb0@gmail.com>",
   "main": "index.js",
@@ -20,13 +20,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
+  "devDependencies": {
     "babel-eslint": "^10.0.1",
-    "eslint": "5.10.0",
+    "eslint": "^5.10.0",
     "eslint-config-prettier": "^3.3.0",
-    "eslint-loader": "2.1.1",
     "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-jest": "22.1.2",
+    "eslint-plugin-jest": "^22.1.2",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-prettier": "^3.0.0",
     "eslint-plugin-react": "^7.10.0",
@@ -37,7 +36,16 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-high-performance-animation": "^1.1.1",
     "stylelint-order": "^2.0.0",
-    "stylelint-processor-styled-components": "1.5.1"
+    "stylelint-processor-styled-components": "^1.5.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3"
   },
   "eslintConfig": {
     "extends": "./index.js"
