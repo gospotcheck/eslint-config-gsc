@@ -39,11 +39,6 @@
     "stylelint-order": "^2.0.0",
     "stylelint-processor-styled-components": "1.5.1"
   },
-  "peerDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "prettier": "^1.15.2"
-  },
   "eslintConfig": {
     "extends": "./index.js"
   }
