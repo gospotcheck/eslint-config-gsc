@@ -40,7 +40,7 @@ module.exports = {
     'no-unused-vars': 1,
     'no-use-before-define': [1, 'nofunc'],
     'no-var': 2,
-    'object-curly-spacing': [2, 'always', { objectsInObjects: false, arraysInObjects: false }],
+    'object-curly-spacing': [2, 'always'],
     'object-shorthand': [2, 'always'],
     quotes: [2, 'single', 'avoid-escape'],
     radix: 2,
