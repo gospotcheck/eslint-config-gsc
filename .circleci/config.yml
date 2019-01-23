@@ -16,6 +16,15 @@ jobs:
             - eslint-config-gsc-v1-
 
       - run:
+          name: Install Dependecies
+          command: yarn install
+
+      - save_cache:
+          paths:
+            - node_modules
+          key: eslint-config-gsc-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+
+      - run:
           pwd: eslint-config-gsc
           name: Run Tests
           command: yarn lint
