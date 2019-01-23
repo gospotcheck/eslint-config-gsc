@@ -2,14 +2,14 @@ module.exports = {
   extends: 'gsc',
   parserOptions: {
     ecmaFeatures: {
-      jsx: true
-    }
+      jsx: true,
+    },
   },
   plugins: ['react'],
   settings: {
     react: {
-      version: '16.0'
-    }
+      version: '16.0',
+    },
   },
   rules: {
     'jsx-a11y/label-has-for': 0,
@@ -31,6 +31,6 @@ module.exports = {
     'react/prop-types': 0,
     'react/react-in-jsx-scope': 2,
     'react/self-closing-comp': 1,
-    'react/sort-comp': 2
-  }
+    'react/sort-comp': 2,
+  },
 };

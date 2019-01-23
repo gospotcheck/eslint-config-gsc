@@ -3,21 +3,21 @@ module.exports = {
   extends: [
     'stylelint-config-recommended',
     'stylelint-config-styled-components',
-    'stylelint-config-prettier'
+    'stylelint-config-prettier',
   ],
   plugins: [
     'stylelint-high-performance-animation',
-    'stylelint-order'
+    'stylelint-order',
   ],
   rules: {
     'block-no-empty': null,
     'declaration-block-no-redundant-longhand-properties': true,
     'plugin/no-low-performance-animation-properties': true,
     'selector-type-no-unknown': [ true, {
-      'ignoreTypes': ['/^-styled-mixin/']
+      'ignoreTypes': ['/^-styled-mixin/'],
     }],
     'shorthand-property-no-redundant-values': true,
     'string-quotes': 'single',
-    'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%', 'deg', 'ms']
-  }
+    'unit-whitelist': ['em', 'rem', 'vw', 'vh', 's', '%', 'deg', 'ms'],
+  },
 };
