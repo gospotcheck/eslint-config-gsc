@@ -13,7 +13,7 @@ module.exports = {
   },
   rules: {
     'brace-style': [2, '1tbs'],
-    'comma-dangle': ['error', 'never'],
+    'comma-dangle': ['error', 'always'],
     'comma-style': [2, 'last'],
     'default-case': 2,
     'dot-location': [2, 'property'],
