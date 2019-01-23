@@ -2,18 +2,18 @@ module.exports = {
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 2015,
-    sourceType: 'module'
+    sourceType: 'module',
   },
   plugins: ['prettier', 'jest'],
   env: {
     browser: true,
     es6: true,
     jest: true,
-    node: true
+    node: true,
   },
   rules: {
     'brace-style': [2, '1tbs'],
-    'comma-dangle': ['error', 'always'],
+    'comma-dangle': ['error', 'always-multiline'],
     'comma-style': [2, 'last'],
     'default-case': 2,
     'dot-location': [2, 'property'],
@@ -52,6 +52,6 @@ module.exports = {
     'space-infix-ops': ['error'],
     'spaced-comment': 0,
     'valid-jsdoc': [2, { requireReturn: false, requireReturnDescription: false }],
-    'wrap-iife': 2
-  }
+    'wrap-iife': 2,
+  },
 };
