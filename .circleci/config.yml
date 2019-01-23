@@ -1,0 +1,21 @@
+version: 2
+jobs:
+  test_eslint_config_gsc:
+    docker:
+      - image: circleci/node:8.12.0-browsers
+    steps:
+      - checkout
+
+      - attach_workspace:
+          at: ~/eslint-config-gsc
+
+      - restore_cache:
+          keys:
+            - eslint-config-gsc-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - eslint-config-gsc-v1-{{ .Branch }}-
+            - eslint-config-gsc-v1-
+
+      - run:
+          pwd: eslint-config-gsc
+          name: Run Tests
+          command: yarn lint
