@@ -1,4 +1,5 @@
 ## eslint-config-gsc
+[![CircleCI](https://circleci.com/gh/gospotcheck/eslint-config-gsc.svg?style=svg)](https://circleci.com/gh/gospotcheck/eslint-config-gsc)
 
 This package provides shareable [ESLint](http://eslint.org/) configurations for JavaScript projects that conform with GoSpotChecks coding style.
 
