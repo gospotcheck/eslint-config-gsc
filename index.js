@@ -24,7 +24,6 @@ module.exports = {
     'handle-callback-err': 0,
     indent: ['error', 2, { SwitchCase: 1, MemberExpression: 1 }],
     'keyword-spacing': [2, { after: true }],
-    'max-len': ['error', { code: 120 }],
     'new-cap': [2, { capIsNew: false }],
     'no-bitwise': 2,
     'no-cond-assign': [2, 'always'],
