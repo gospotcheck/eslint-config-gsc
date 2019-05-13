@@ -25,6 +25,9 @@ module.exports = {
     'react/no-children-prop': 'off',
     'react/no-did-mount-set-state': 2,
     'react/no-did-update-set-state': 2,
+    'react/jsx-no-bind': [2, {
+      'allowArrowFunctions': true,
+    }],
     'react/no-multi-comp': [1, { ignoreStateless: true }],
     'react/no-unknown-property': 2,
     'react/prefer-stateless-function': 'error',
