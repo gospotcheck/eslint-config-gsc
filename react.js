@@ -28,7 +28,6 @@ module.exports = {
     'react/jsx-no-bind': [2, {
       'allowArrowFunctions': true,
     }],
-    'react/no-multi-comp': [1, { ignoreStateless: true }],
     'react/no-unknown-property': 2,
     'react/prefer-stateless-function': 'error',
     'react/prop-types': 0,
