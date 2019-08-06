@@ -5,10 +5,10 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['react'],
+  plugins: ['react', 'react-hooks'],
   settings: {
     react: {
-      version: '16.0',
+      version: '16.8',
     },
   },
   rules: {
@@ -34,5 +34,7 @@ module.exports = {
     'react/react-in-jsx-scope': 2,
     'react/self-closing-comp': 1,
     'react/sort-comp': 2,
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
   },
 };
