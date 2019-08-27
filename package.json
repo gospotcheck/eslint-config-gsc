@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gsc",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "A shareable ESLint configuration from GoSpotCheck",
   "author": "GoSpotCheck",
   "contributors": [
@@ -9,11 +9,12 @@
   ],
   "main": "index.js",
   "files": [
-    "index.js",
-    "typescript.js",
-    "react.js",
+    "baseLintConfig.js",
     "cypress.js",
+    "index.js",
     "jest.js",
+    "react.js",
+    "typescript.js",
     "stylelint.js"
   ],
   "repository": {
