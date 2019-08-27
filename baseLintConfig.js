@@ -60,7 +60,7 @@ const rules = {
   'wrap-iife': 2,
 };
 
-export {
+module.exports = {
   parserOptions,
   extend,
   env,
