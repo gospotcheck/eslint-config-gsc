@@ -21,9 +21,9 @@ module.exports = {
 
 The `eslint-config-gsc` package includes a number of ESLint configuration profiles for different types of projects.
 
-#### `gsc` (base config)
+#### Base JavaScript
 
-The "base" config is suitable for JavaScript projects.
+The "base" config is suitable for JavaScript projects using `babel-eslint` parser.
 
 Example configuration in `.eslintrc.js`:
 ```javascript
@@ -32,14 +32,42 @@ module.exports = {
 };
 ```
 
-#### `gsc/react`
+#### React
 
 The `gsc/react` config is suitable for projects using [React](https://facebook.github.io/react/).
 
 Example configuration in `.eslintrc.js`:
 ```javascript
 module.exports = {
-  "extends": "gsc/react"
+  "extends": [
+    "gsc",
+    "gsc/react"
+  ]
+};
+```
+
+#### TypeScript
+
+The `gsc/typescript` config is suitable for projects using [TypeScript](https://www.typescriptlang.org/).
+
+Example configuration in `.eslintrc.js`:
+```javascript
+module.exports = {
+  "extends": "gsc/typescript"
+};
+```
+
+#### TypeScript + React
+
+Projects using both [TypeScript](https://www.typescriptlang.org/) and [React](https://facebook.github.io/react/) need this config.
+
+Example configuration in `.eslintrc.js`:
+```javascript
+module.exports = {
+  "extends": [
+    "gsc/typescript",
+    "gsc/react"
+  ]
 };
 ```
 

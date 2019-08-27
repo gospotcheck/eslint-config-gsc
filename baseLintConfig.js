@@ -3,8 +3,9 @@ const parserOptions = {
   sourceType: 'module',
 };
 
+const plugins = ['prettier'];
+
 const extend = [
-  'plugin:prettier/recommended',
   'plugin:cypress/recommended',
   'plugin:jest/recommended',
   'plugin:jest/style',
@@ -62,6 +63,7 @@ const rules = {
 
 module.exports = {
   parserOptions,
+  plugins,
   extend,
   env,
   rules,
