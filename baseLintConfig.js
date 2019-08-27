@@ -5,12 +5,6 @@ const parserOptions = {
 
 const plugins = ['prettier'];
 
-const extend = [
-  'plugin:cypress/recommended',
-  'plugin:jest/recommended',
-  'plugin:jest/style',
-];
-
 const env = {
   browser: true,
   es6: true,
@@ -64,7 +58,6 @@ const rules = {
 module.exports = {
   parserOptions,
   plugins,
-  extend,
   env,
   rules,
 };

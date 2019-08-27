@@ -6,7 +6,6 @@ module.exports = {
   extends: [
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
-    ...base.extend,
   ],
   parserOptions: base.parserOptions,
   env: base.env,

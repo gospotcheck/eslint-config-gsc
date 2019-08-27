@@ -12,6 +12,8 @@
     "index.js",
     "typescript.js",
     "react.js",
+    "cypress.js",
+    "jest.js",
     "stylelint.js"
   ],
   "repository": {
@@ -53,9 +55,7 @@
     "babel-eslint": "^10.x",
     "eslint": "^6.x",
     "eslint-config-prettier": "^5.x",
-    "eslint-plugin-cypress": "^2.x",
     "eslint-plugin-import": "^2.x",
-    "eslint-plugin-jest": "^22.x",
     "eslint-plugin-prettier": "^3.x",
     "prettier": "^1.x"
   },
