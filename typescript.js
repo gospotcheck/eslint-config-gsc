@@ -2,7 +2,7 @@ const base = require('./baseLintConfig');
 
 module.exports = {
   parser: '@typescript-eslint/parser',
-  plugins: [...base.plugings, '@typescript-eslint'],
+  plugins: [...base.plugins, '@typescript-eslint'],
   extends: [
     'plugin:@typescript-eslint/recommended',
     'prettier/@typescript-eslint',
