@@ -2,6 +2,7 @@ module.exports = {
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
+      modules: true,
     },
   },
   plugins: ['react', 'react-hooks'],
