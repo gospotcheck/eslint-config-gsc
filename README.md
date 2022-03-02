@@ -24,7 +24,7 @@ The `eslint-config-gsc` package includes a number of ESLint configuration profil
 
 #### Base JavaScript
 
-The "base" config is suitable for JavaScript projects using `babel-eslint` parser.
+The "base" config is suitable for JavaScript projects using `@babel/eslint-parser` parser.
 
 Example configuration in `.eslintrc.js`:
 
